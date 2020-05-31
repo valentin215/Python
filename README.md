@@ -1,2 +1,2 @@
 # Python
-Bascis Python to start
+Basics
