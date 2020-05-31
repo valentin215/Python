@@ -93,5 +93,28 @@ fruits_set = {"apple", "banana", "cherry"}
 first_fruit_set = set('apple')
 print (first_fruit_set)
 
-""" Dictionnaries """
+""" Dictionaries """
+
+fruits_dictionary = {
+        'cherry': 'red',
+        'apple': 'green',
+        'banana': 'yellow',
+    }
+
+dictionary_for_string_keys = dict(sape=4139, guido=4127, jack=4098)
+del dictionary_for_string_keys["sape"]
+print(dictionary_for_string_keys)
+
+""" Type casting """
+
+number = 1
+int(number)
+result = isinstance(number, int) 
+print(result)
+print(number)
+float(number)
+print(number)
+result_string = isinstance(str(number), str)
+print(result_string)
+print(number)
 
