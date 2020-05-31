@@ -44,8 +44,8 @@ print(sentence)
 sentence_test = '{}, were are in {}'.format('Hello', 2020)
 print(sentence_test)
 
-""" List type
-"""
+""" List type """
+
 list_test = [1, 2, 3]
 list_test.append(4)
 print(list_test)
@@ -71,11 +71,27 @@ for i in range(4):
   transposed.append([row[i] for row in matrix])
   print(transposed)
 
-transposed_second = []
-for i in range(4):
-    transposed_row = []
-    for row in matrix:
-        row = row[i]
-        print(row)
-        transposed_row.append(row[i])
-    transposed_second.append(transposed_row)  
+# transposed_second = []
+# for i in range(4):
+#     transposed_row = []
+#     for row in matrix:
+#         row = row[i]
+#         print(row)
+#         transposed_row.append(row[i])
+#     transposed_second.append(transposed_row)  
+
+""" Tuples """
+
+fruits_tuple = ("apple", "banana", "cherry")
+length_tuple = len(fruits_tuple)
+print(fruits_tuple)
+print(length_tuple)
+
+""" Sets """
+
+fruits_set = {"apple", "banana", "cherry"}
+first_fruit_set = set('apple')
+print (first_fruit_set)
+
+""" Dictionnaries """
+
