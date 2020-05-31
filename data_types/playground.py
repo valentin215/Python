@@ -21,6 +21,20 @@ if isinstance(boolean_true, bool):
 if isinstance(complex_1, complex):
   print('working for complex numner')
 
+""" String types
+# string + methods
+"""
 
+string = "Python"
+length = len(string)
+char = string[:-5]
+print(length)
+print(char)
 
+test_tuple = ('John', 'Peter', 'Val')
+result = ', '.join(test_tuple)
+print(result)
 
+formating_variable = 'Hello'
+# sentence = f'We are in {formating_variable}'
+print(f'We are in {formating_variable}')
