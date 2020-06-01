@@ -29,3 +29,12 @@ def global_scope():
     
 global_scope()
 
+
+def power_of(number, power=2):
+    return number ** power
+
+def function_test_arguments(params, *args):
+    print(params)
+    print(args)
+
+function_test_arguments('one', 'test', 'second_test')
