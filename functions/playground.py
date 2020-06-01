@@ -38,3 +38,11 @@ def function_test_arguments(params, *args):
     print(args)
 
 function_test_arguments('one', 'test', 'second_test')
+
+def function_test_lambda(delta):
+    return lambda number: number + delta
+
+test_lambda = function_test_lambda(10)
+print(test_lambda)
+result = test_lambda(10)
+print(result)
